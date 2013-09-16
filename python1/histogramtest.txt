@@ -1,0 +1,6 @@
+This is a test file for the histogram-builder.
+I can use this file to see whether my word-length-measuring histogram is working.
+For the test to succeed, I'll have to have a decent amount of copy in this file.
+Testing is important, though, so typing this stuff is worth it!
+Yep, totally worth it.
+Just like learning Python!
