@@ -29,10 +29,10 @@ class TestReadWriteFile(unittest.TestCase):
 
     def tearDown(self):
         """This function is run after each test."""
-    try:
-        os.remove(self.fixture_file)
-    except OSError:
-        pass
+        try:
+             os.remove(self.fixture_file)
+        except OSError:
+            pass
 
 if __name__ == "__main__":
     unittest.main()
