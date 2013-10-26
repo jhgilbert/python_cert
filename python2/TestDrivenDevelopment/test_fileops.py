@@ -6,7 +6,7 @@ class TestReadWriteFile(unittest.TestCase):
     """Test case to verify list read/write functionality."""
     def setUp(self):
         """This function is run before each test."""
-        self.fixture_file = r"/Users/jgilbert/extras/oreilly/python_cert/python2/TestDrivenDevelopment/test-read-write.txt"
+        self.fixture_file = "test-read-write.txt"
         self.fixture_list = ["my", "written", "text"]
         self.fixture_list_empty_strings = ["my", "", "", "written", "text"]
         self.fixture_list_trailing_empty_strings = ["my", "written", "text", "", ""]
