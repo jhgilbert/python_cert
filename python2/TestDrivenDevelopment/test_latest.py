@@ -29,8 +29,8 @@ class TestLatest(unittest.TestCase):
         Ensure that calling the function with arguments of 2 and some directory
         returns the two most recently-created files in the directory.
         """
-        expected = set([self.path + "file.new",
-                        self.path + "file.bak"])
+        expected = set(["file.new",
+                        "file.bak"])
         latest_files = set(latest.latest(2, self.path))
         self.assertEqual(latest_files, expected)
 
